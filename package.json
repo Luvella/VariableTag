@@ -1,0 +1,27 @@
+{
+  "name": "variabletag",
+  "version": "1.0.0",
+  "description": "Like template literals, but for strings and custom variables.",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luvella/VariableTag.git"
+  },
+  "keywords": [
+    "map",
+    "string",
+    "tags",
+    "template"
+  ],
+  "author": "Luvella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luvella/VariableTag/issues"
+  },
+  "homepage": "https://github.com/Luvella/VariableTag#readme"
+}
