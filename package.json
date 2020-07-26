@@ -1,8 +1,9 @@
 {
   "name": "variabletag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like template literals, but for strings and custom variables.",
   "main": "src/index.js",
+  "files": ["src/index.js"],
   "dependencies": {},
   "devDependencies": {},
   "scripts": {

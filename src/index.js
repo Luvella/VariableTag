@@ -1,8 +1,10 @@
 class VariableTag {
-	constructor(options) {
+	constructor(options = {}) {
+		if (Array.isArray(options) || typeof options !== "object" && options !== null) throw new TypeError("expected options to be an object")
+		this.options = Object.assign({tags: {}}, options)
 		this.tags = {};
 
-		for (const tag in options.tags) this.tags[`%${tag}%`] = options.tags[tag];
+		for (const tag in this.options.tags) this.tags[`%${tag}%`] = this.options.tags[tag];
 	}
 
 	format(str) {
