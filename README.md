@@ -1,5 +1,5 @@
 # VariableTag
-Like template literals, but for user inputted strings and custom variables.
+An easy way of templating strings from external sources (user input, text/json config files)
 
 ## Install 
 `npm i variabletag`
